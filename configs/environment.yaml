@@ -1,0 +1,21 @@
+name: eos_env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=12.1
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - pip
+  - pip:
+      - tensorflow
+      - transformers
+      - tensorboard
+      - rich
