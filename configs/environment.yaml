@@ -8,14 +8,14 @@ dependencies:
   - pytorch
   - torchvision
   - torchaudio
-  - cudatoolkit=12.1
+#  - cudatoolkit=12.1
   - numpy
   - pandas
   - matplotlib
   - jupyter
   - pip
   - pip:
-      - tensorflow
+      - tensorflow=1.1
       - transformers
       - tensorboard
       - rich

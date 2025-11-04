@@ -1,0 +1,14 @@
+name: eos_env_2
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=2.7
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - pip
+  - pip:
+      - tensorflow=1.1
